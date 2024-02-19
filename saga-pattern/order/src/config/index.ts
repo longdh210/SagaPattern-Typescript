@@ -1,5 +1,5 @@
 export default () => ({
-  broker: 'localhost:9092',
+  broker: 'broker:9092',
   services: {
     order: {
       clientId: 'order',
