@@ -1,5 +1,5 @@
 export default () => ({
-  broker: process.env.BROKER ?? 'broker:9092',
+  broker: 'localhost:9092',
   services: {
     order: {
       clientId: 'order',
